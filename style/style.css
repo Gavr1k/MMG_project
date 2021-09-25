@@ -570,7 +570,7 @@ img {
   .about__text {
     padding: 0 calc(10px + (38 - 10) * (100vw - 320px) / (1440 - 320));
   }
-
+  
   .about__benefits {
     margin-right: calc(20px + (300 - 20) * (100vw - 320px) / (1440 - 320));
   }
@@ -580,6 +580,10 @@ img {
   .about__benefits-text {
     margin-left: calc(10px + (58 - 10) * (100vw - 320px) / (1440 - 320));
   }
+  .product__image {
+    width: calc(300px + (704 - 300) * (100vw - 320px) / (1440 - 320));
+    height: auto;
+}
   .product__content {
     margin-right: calc(20px + (115 - 20) * (100vw - 320px) / (1440 - 320));
   }
@@ -599,11 +603,14 @@ img {
   .function__wrapper {
     padding: 0 calc(20px + (135 - 20) * (100vw - 320px) / (1440 - 320));
   }
+  .function__desc {
+      width: calc(100px + (500 - 100) * (100vw - 320px) / (1440 - 320));
+  }
   .function__title {
-    margin-left: calc(20px + (71 - 20) * (100vw - 320px) / (1440 - 320));
+    margin-left: calc(55px + (71 - 55) * (100vw - 320px) / (1440 - 320));
   }
   .functin__text {
-    padding-left: calc(20px + (71 - 20) * (100vw - 320px) / (1440 - 320));
+    padding-left: calc(55px + (71 - 55) * (100vw - 320px) / (1440 - 320));
     padding-right: calc(2px + (10 - 2) * (100vw - 320px) / (1440 - 320));
   }
   .news__wrapper {
